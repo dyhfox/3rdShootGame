@@ -7,7 +7,7 @@ public class idle : StateMachineBehaviour
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator Animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-       Animator.setBool("shoot", false);
+       Animator.SetBool("shoot", false);
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
