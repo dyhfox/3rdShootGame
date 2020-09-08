@@ -8,7 +8,6 @@ public class idle : StateMachineBehaviour
     override public void OnStateEnter(Animator Animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
        Animator.SetBool("shoot", false);
-
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
