@@ -55,8 +55,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\idle.cs" />
+    <Compile Include="Assets\script\BaseRobot.cs" />
+    <Compile Include="Assets\script\idle.cs" />
     <Compile Include="Assets\script\HUD.cs" />
+    <Compile Include="Assets\script\RobotPlayer.cs" />
+    <Compile Include="Assets\script\WeaponBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
